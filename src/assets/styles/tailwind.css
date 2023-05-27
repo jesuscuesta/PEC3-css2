@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+
+.img-thumbnail {
+  margin: 0 auto;
+}
+
+.card-uoc {
+  @apply px-2 py-1 text-sm text-gray-700 border border-gray-300 rounded-md hover:bg-gray-100
+}
+
+.card-actions {
+  @apply flex justify-between items-center;
+}
+
+@tailwind utilities;
